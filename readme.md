@@ -1,9 +1,9 @@
 # pyfim clone
 
-Clone of pyfim making it installable as a dependency. Copied from http://www.borgelt.net/pyfim.html - I did not write any of this code.
+Clone of pyfim making it installable as a dependency. Copied from http://www.borgelt.net/pyfim.html
 
 # installation
-`pip install git+https://github.com/csinva/pyfim-clone`
+`pip install git+https://github.com/Pacmed/pyfim-clone`
 
 Now we can import pyfim (from python):
 
@@ -16,7 +16,7 @@ If you would like to include pyfim as a dependency for your project, simply add 
 setup(
     ...
     install_requires=[
-        'fim @ git+https://github.com/csinva/pyfim-clone',              
+        'fim @ git+https://github.com/Pacmed/pyfim-clone',              
     ],
     ...
 )
@@ -30,7 +30,7 @@ setup(
         'fim',
     ],
     dependency_links=[
-        'https://github.com/csinva/pyfim-clone/tarball/master#egg=fim-6.28'
+        'https://github.com/Pacmed/pyfim-clone/tarball/master#egg=fim-6.28'
     ],
     ...
 )
